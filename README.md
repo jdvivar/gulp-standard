@@ -1,14 +1,10 @@
 #gulp-standard
-[![Build Status](https://travis-ci.org/emgeee/gulp-standard.png?branch=master)](https://travis-ci.org/emgeee/gulp-standard)
-[![NPM version](https://badge.fury.io/js/gulp-standard.png)](http://badge.fury.io/js/gulp-standard)
-
-> [Standard](https://github.com/feross/standard/) linter for gulp
 
 ## Information
 
 <table>
 <tr>
-<td>Package</td><td>gulp-standard</td>
+<td>Package</td><td>gulp-standardjs</td>
 </tr>
 <tr>
 <td>Description</td>
@@ -29,7 +25,7 @@
 #### Install
 
 ```sh
-$ npm install --save-dev gulp-standard
+$ npm install --save-dev gulp-standardjs
 ```
 
 ## Examples
@@ -37,7 +33,7 @@ $ npm install --save-dev gulp-standard
 ```javascript
 // include the required packages.
 var gulp = require('gulp')
-var standard = require('gulp-standard')
+var standard = require('gulp-standardjs')
 
 gulp.task('standard', function () {
   return gulp.src(['./app.js'])
