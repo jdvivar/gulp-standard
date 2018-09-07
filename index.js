@@ -6,7 +6,7 @@ var PluginError = require('plugin-error')
 var PLUGIN_NAME = require('./package.json').name
 var defaultReporter = require('./reporters/stylish')
 
-function gulpStandard (opts) {
+function gulpStandardjs (opts) {
   function processFile (file, enc, cb) {
     if (file.isNull()) {
       return cb(null, file)
@@ -34,7 +34,7 @@ function gulpStandard (opts) {
   return through2.obj(processFile)
 }
 
-gulpStandard.reporter = function (reporter, opts) {
+gulpStandardjs.reporter = function (reporter, opts) {
   // Load default reporter
   if (reporter === 'default') return defaultReporter(opts)
 
@@ -56,4 +56,4 @@ gulpStandard.reporter = function (reporter, opts) {
   }
 }
 
-module.exports = gulpStandard
+module.exports = gulpStandardjs
