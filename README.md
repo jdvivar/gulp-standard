@@ -1,4 +1,5 @@
-#gulp-standard
+# gulp-standard
+This fork of https://github.com/emgeee/gulp-standard has as only difference to use standardjs v12 instead of v11 (and the name, `gulp-standardjs` instead of `gulp-standard`)
 
 ## Information
 
