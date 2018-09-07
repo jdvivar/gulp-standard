@@ -44,7 +44,7 @@ gulpStandard.reporter = function (reporter, opts) {
   // load built-in reporters
   if (typeof reporter === 'string') {
     try {
-      return require('gulp-standard/reporters/' + reporter)(opts)
+      return require('gulp-standardjs/reporters/' + reporter)(opts)
     } catch (err) {}
   }
 
