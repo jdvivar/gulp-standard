@@ -1,3 +1,5 @@
+> This version was just created to update the original `gulp-standard` to v12. It was used in a PR and the author from the original repo has accepted so please use the original one instead. Keeping this here until I can update the projects in which I needed this.
+
 # gulp-standard
 - This fork of https://github.com/emgeee/gulp-standard has as only difference to use standardjs v12 instead of v11 (and the name, `gulp-standardjs` instead of `gulp-standard`)
 - Thanks to this version bump, a bug for `error: unable to load resolver "node"` when finding `import` statements that happens when using `gulp-standard` doesn't happen anymore with this package.
